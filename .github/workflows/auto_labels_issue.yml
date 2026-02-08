@@ -29,7 +29,7 @@ jobs:
               'Код 👨‍💻': 'Code',
               'Спрайты 🎨': 'Sprites',
               'Карты 🗺️': 'Map Issue',
-              'Перевод/описание 🧠': 'Translation/Localization'
+              'Перевод/Описание 🧠': 'Translation/Localization'
             };
 
             if (body) {

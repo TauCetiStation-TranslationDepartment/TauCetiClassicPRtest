@@ -76,7 +76,7 @@
     - 'SpacemanDMM.toml'
 
 #Translation tools
-'Translation/Localization'
+'Translation/Localization':
 - changed-files:
   - any-glob-to-any-file:
      - '_translation.dm'

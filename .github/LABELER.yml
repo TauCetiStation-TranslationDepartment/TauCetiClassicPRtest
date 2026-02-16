@@ -46,7 +46,6 @@
 - changed-files:
   - any-glob-to-any-file:
     - 'config/**/*'
-    - 'config/example/**/*'
 
 # Changes to a .dm or anything in the code subfolder
 'Code':

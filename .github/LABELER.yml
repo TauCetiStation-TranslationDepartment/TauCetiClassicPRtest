@@ -40,18 +40,27 @@
 - changed-files:
   - any-glob-to-any-file:
     - 'tgui/**'
+    - 'html/**'
+    - 'nano/**'
 
 # Changes to the config subfolder
 'Config Update':
 - changed-files:
   - any-glob-to-any-file:
     - 'config/**/*'
+    - 'config/example/**/*'
 
 # Changes to a .dm or anything in the code subfolder
 'Code':
 - changed-files:
   - any-glob-to-any-file:
     - '**/*.dm'
+
+# Any .json changes
+'javascript':
+- changed-files:
+  - any-glob-to-any-file:
+    - '**/*.json'
 
 # Changes to the .Github subfolder
 'Maintainability Improvements':
@@ -63,7 +72,6 @@
     - 'docs/**/*'
     - 'scripts/**/*'
     - 'test/**/*'
-    - 'tools/**/*'
     - '.codebeatignore'
     - '.codebeatsettings'
     - '.editorconfig'
@@ -74,8 +82,15 @@
     - 'README.md'
     - 'SpacemanDMM.toml'
 
+# Changes to the Tools folder
+'Tools':
+- changed-files:
+  - any-glob-to-any-file:
+    - 'tools/**/*'
+
 #Translation tools
 'Translation/Localization':
 - changed-files:
   - any-glob-to-any-file:
-     - '_translation.dm'
+     - 'code/__DEFINES/_translation.dm'
+     - '.github/wiki/TRANSLATION.md'

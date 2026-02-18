@@ -4,10 +4,12 @@ type: Bug
 body:
   - type: markdown
     attributes:
-      value: "## Пожалуйста, не стирайте строчки, которые были автоматически созданы."
+      value: "## В игре есть кнопка «Bug Report» в правом верхнем углу игры, при её нажатии часть информации ниже заполнится автоматически."
 
   - type: checkboxes
     id: feature_scope
+    validations:
+      required: true
     attributes:
       label: "Категория бага"
       description: "К какому типу контента относится проблема?"
@@ -25,10 +27,20 @@ body:
     attributes:
       label: "Описание"
       description: "Опишите одну проблему как можно подробнее"
-      value: |
-        #### Что должно было произойти
 
-        #### Что произошло на самом деле
+  - type: textarea
+    id: whatmusthappen
+    validations:
+      required: true
+    attributes:
+      label: "Что должно было произойти"
+
+  - type: textarea
+    id: whathappenow
+    validations:
+      required: true
+    attributes:
+      label: "Что произошло на самом деле"
 
   - type: textarea
     id: reproduction
